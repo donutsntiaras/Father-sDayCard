@@ -3,7 +3,7 @@ var gameState = 0;
 var bgImage, spImage, timage1;
 var officer, timage2;
 var timage3;
-var timage4, no1;
+var timage4;
 var fcimage;
 var end;
 function preload(){
@@ -15,7 +15,7 @@ function preload(){
  fcimage = loadImage("images/fd2.jpg"); 
  timage3 = loadImage("images/text3.png");
  timage4 = loadImage("images/text4.png");
- no1 = loadImage("images/fd4.jpg");
+ 
  end = loadImage("images/fd.jpg");
 }
 
@@ -55,7 +55,7 @@ function draw() {
   if(keyCode === 84){
     background(255);
     background(timage3);
-    image(no1,1000,300);
+    
   }
   //h
   if (keyCode === 72){
